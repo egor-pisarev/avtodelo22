@@ -181,7 +181,7 @@ $this->title = 'Автосервис | Автодело';
                 <div class="contact-info">
                     <h3>Наши контакты</h3>
                     <ul class="contact-list">
-                        <li><i class="icon-directions"></i> Северный Власихинский проезд, 5</li>
+                        <li><i class="icon-directions"></i> 40 лет Октября, 11а</li>
                         <li><i class="icon-call-in"></i> 390-390, 8 (923) 725-01-01, 8 (960) 958-65-17</li>
                         <li><i class="icon-envelope-open"></i><a href="mailto:contact@avtodelo22.ru">contact@simplesphere.com</a></li>
                     </ul>

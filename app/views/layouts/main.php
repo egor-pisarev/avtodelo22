@@ -1,6 +1,21 @@
 <?php
+/**
+ * @var $this  \yii\web\View
+ */
+
 use yii\helpers\Html;
 use yii\easyii\modules\feedback\api\Feedback;
+
+
+$this->registerMetaTag([
+    'name'=>'description',
+    'content'=>'Автосервис Автодело22 в Барнауле предоставляет ряд услуг по ремонту автомобилей: Геометрия, Подготовка А/М к техосмотру, Регулировка фар под ЕВРО стандарт, СО СН, ремонт стекол, Промывка топливных систем, Чистка форсунок, Шиномонтаж, КАП ремонт ДВС, Ремонт ходовой части, Помощь в купле-продаже АМ, Отогрев автомобилей, Автоэлектрик'
+]);
+
+$this->registerMetaTag([
+    'name'=>'keywords',
+    'content'=>'Автосервис, Автодело22,Автосервис в Барнауле,Автосервис барнаул, ремонт автомобилей, Геометрия, Подготовка А/М к техосмотру, Регулировка фар под ЕВРО стандарт,регулировка фар, СО СН, ремонт стекол, Промывка топливных систем, Чистка форсунок, Шиномонтаж, КАП ремонт ДВС, Ремонт ходовой части, Помощь в купле-продаже АМ, Отогрев автомобилей, Автоэлектрик'
+]);
 
 $asset = \app\assets\AppAsset::register($this);
 ?>
@@ -14,7 +29,7 @@ $asset = \app\assets\AppAsset::register($this);
         <title><?= Html::encode($this->title) ?></title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="<?= $asset->baseUrl ?>/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="<?= $asset->baseUrl ?>/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -52,7 +67,7 @@ $asset = \app\assets\AppAsset::register($this);
                         <!-- Start Logo / Text -->
                         <span class="text-contacts" href="#">
                             <i class="fa fa-phone"></i> 390-390, 8 (923) 725-01-01, 8 (960) 958-65-17<br>
-                            <i class="fa fa-map-marker"></i> Северный Власихинский проезд, 5
+                            <i class="fa fa-map-marker"></i> 40 лет Октября, 11а
                         </span>
                         <!-- End Logo / Text -->
                     </div>
